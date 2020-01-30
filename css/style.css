@@ -1,3 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 h1 {
   background: chartreuse;
+}
+
+.kanye-div {
+  position: relative;
+}
+
+#kanye-quote {
+  font-family: "Lobster", cursive;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 190px;
+  height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: greenyellow;
 }
