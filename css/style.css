@@ -3,9 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("../logo.png");
+  margin: 0 auto;
 }
 h1 {
   background: chartreuse;
+  margin-top: 57px;
+  width: 37.5vw;
+  text-align: center;
 }
 
 .kanye-div {
@@ -16,18 +21,36 @@ h1 {
   font-family: "Lobster", cursive;
   position: absolute;
   top: 10%;
-  left: 0%;
+  left: 0.5%;
   width: 190px;
   height: 120px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+.btn-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 37.5vw;
+}
+
 .btn {
   background-color: chartreuse;
   padding: 10px;
+  margin-top: 50px;
 }
 
 .btn:hover {
   background-color: greenyellow;
+}
+
+footer {
+  color: white;
+  position: fixed;
+  top: 95%;
+  left: 70%;
+}
+
+footer a {
+  color: dodgerblue;
 }
